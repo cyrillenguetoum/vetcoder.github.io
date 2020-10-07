@@ -1,6 +1,6 @@
-name: Your New Jekyll Site
-description: Blogging about stuffs
-meta_description: "Your New Jekyll Site, Blogging about stuffs"
+name: Cyrille's Blog
+description: The journey of a Biology Researcher in tech stuffs
+meta_description: "Cyrille's Blog, The journey of a Biology Researcher in tech stuffs"
 
 aboutPage: true
 
@@ -15,9 +15,9 @@ disqus: true
 disqus_shortname: 'vetcoder'
 
 # Details for the RSS feed generator
-url:            'http://your-blog-url.example.com'
-author:         'Your Name'
-authorTwitter:  'YourTwitterUsername'
+url:            'https://vetcoder.github.io'
+author:         'Cyrille NGUETOUM'
+authorTwitter:  'cyrillenguetoum'
 
 permalink:       /:year/:title/
 
@@ -34,6 +34,7 @@ defaults:
             type: posts
         values:
             layout: post
+            author: Cyrille NGUETOUM
     -
         scope:
             path: ""
